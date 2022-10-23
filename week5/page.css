@@ -1,0 +1,57 @@
+.header,
+.main,
+.nav,
+.item_1,
+.item_2,
+.item_3,
+.aside,
+.footer-container {
+    border: 1px solid red;
+}
+.header,
+.footer {
+    flex: 0 0 content;
+}
+.headline {
+    text-align: center;
+}
+body {
+    display: flex;
+    flex-flow: column;
+}
+.main {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+.aside {
+    width: 70vh;
+}
+
+.item_3 {
+    height: 10vh;
+    flex: 1;
+}
+.item_1 {
+    height: 10vh;
+    flex: 1;
+}
+.item_2 {
+    height: 10vh;
+    flex: 1;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.items {
+    display: flex;
+    flex-direction: row;
+}
+.container {
+    flex: 1;
+}
+.nav {
+    height: 30vh;
+}

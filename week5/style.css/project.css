@@ -1,0 +1,358 @@
+body {
+    background-color: rgba(244, 242, 221, 1);
+    font-family: "Slabo 13px", serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 45px;
+    margin-left: 90px;
+    font-family: "Kodchasan", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 52px;
+    color: #000000;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.nav li {
+    margin-top: 45px;
+    margin-right: 80px;
+}
+
+.nav li a {
+    font-family: "Slabo 13px", serif;
+    font-size: 19px;
+    line-height: 25px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+.title {
+    font-family: "Kodchasan", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    width: 580px;
+    height: 166px;
+    line-height: 83px;
+    margin-left: 90px;
+}
+
+#p {
+    font-family: "Slabo 13px", serif;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 30px;
+    width: 500px;
+    height: 120px;
+    margin-left: 90px;
+    margin-bottom: 95px;
+}
+
+.image1 {
+    width: 629px;
+    height: 464px;
+    margin-right: 80px;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+section {
+    flex: 1;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 90px;
+    border-radius: 5px;
+    font-family: "Slabo 13px", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    background: #b2ae7f;
+}
+
+a {
+    font-family: "Slabo 13px", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 42px;
+}
+
+.paragraph2 {
+    margin-left: 80px;
+    width: 415px;
+}
+
+.paragraph {
+    margin-right: 80px;
+    margin-bottom: 50px;
+
+    text-align: right;
+}
+
+.paragraph,
+.paragraph2 {
+    font-family: "Slabo 13px", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+
+    min-height: 120px;
+    align-self: center;
+}
+
+.container_3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container_2 {
+    display: flex;
+    padding-left: 310px;
+    flex-direction: row;
+}
+
+.image2,
+.image3 {
+    width: 743px;
+    height: 428px;
+    border-radius: 5px;
+}
+
+hr,
+.hr2 {
+    background-color: black;
+    color: black;
+    border: none;
+    height: 1px;
+}
+
+.hr2 {
+    width: 90vw;
+}
+
+.title2 {
+    font-family: "Kodchasan", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+
+    color: #000000;
+}
+
+.p2 {
+    font-family: "Slabo 13px", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.bg-green {
+    background: #ccc9a3;
+    border-radius: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 5.5em);
+    column-gap: 35px;
+}
+
+.grid-item-title {
+    grid-column: 1/5;
+    text-align: center;
+}
+
+.grid-item-p {
+    grid-column: 1/5;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.title3 {
+    font-family: "Kodchasan", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.description {
+    font-family: "Slabo 13px", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.price {
+    margin-left: 10px;
+}
+
+.grid-btn {
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-left: 8px;
+    border-radius: 5px;
+    font-family: "Kodchasan", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    background: #b2ae7f;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imgf {
+    border-radius: 5px;
+}
+
+.title-blog {
+    font-family: "Kodchasan", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image4,
+.image5 {
+    width: 250px;
+    height: 100px;
+}
+
+.container_22,
+.container_33 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container_33 {
+    padding-left: 90px;
+    padding-top: 100px;
+    margin-bottom: 200px;
+}
+
+.artc {
+    font-family: "Slabo 13px";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.btn-article {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 45px;
+    margin-right: 100px;
+    border-radius: 5px;
+    font-family: "Slabo 13px", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    background: #b2ae7f;
+}
+.eco {
+    margin-top: 0px;
+    font-family: "Kodchasan", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 52px;
+
+    color: #000000;
+}
+.pf {
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    width: 200px;
+}
+.footer {
+    display: flex;
+    min-height: 700px;
+    background-color: #b2ae7f;
+    flex-wrap: wrap;
+}
+.footer-container {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+.f-items {
+    margin-top: 35px;
+}
