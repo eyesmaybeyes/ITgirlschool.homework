@@ -1,0 +1,214 @@
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 3%;
+    gap: 20px;
+}
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 3%;
+    gap: 50px;
+}
+.grid-container-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100vw;
+    max-height: 10%;
+}
+.article-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 5%;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+.footer-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-auto-rows: auto;
+    margin: 0 auto;
+    padding-top: 5%;
+    max-width: 100%;
+}
+.footer_logo {
+    display: flex;
+    padding-bottom: 3%;
+}
+.footer-logo-image {
+    align-self: center;
+}
+#footer {
+    font-family: "Libre Franklin", sans-serif;
+    background-color: black;
+}
+.header {
+    max-width: 100vw;
+    margin-top: 0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.wrapper-header {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.article-wrapper {
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding-left: 47%;
+    list-style-type: none;
+}
+.nav li {
+    margin-right: 50px;
+}
+.nav li a {
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000000;
+}
+.article,
+.article_main {
+    text-decoration: none;
+}
+.description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.title-article {
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.paragraph {
+    font-family: "Source Serif Pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #666666;
+}
+p .author {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 11px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.wrapper-section,
+.wrapper-section-2,
+.wrapper-section-3 {
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-bottom: 5%;
+}
+.wrapper-section-2,
+.wrapper-section-3 {
+    padding-top: 5%;
+}
+.title-article {
+    font-family: "Tenor Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.wrapper-footer {
+    padding: 6% 9% 9% 9%;
+}
+.legal {
+    margin-left: 1%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+.footer-2,
+.footer-3,
+.footer-4 {
+    padding-top: 11%;
+}
+.link a {
+    text-decoration: none;
+    color: white;
+}
+.footer-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+.button {
+    grid-column: 2/4;
+    width: 220px;
+    margin-top: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid 2px;
+    border-color: #000000;
+    color: black;
+}
+.btn {
+    color: white;
+    text-decoration: none;
+    background: #000000;
+    border-radius: 0px;
+}
+.logo {
+    background: url("../images/logo.svg");
+    height: 17px;
+    width: 135px;
+    margin-top: 3%;
+}
+body {
+    font-family: "Libre Franklin", sans-serif;
+    background-color: white;
+}

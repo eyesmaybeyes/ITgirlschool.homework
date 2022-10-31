@@ -5,11 +5,11 @@
 .item_2,
 .item_3,
 .aside,
-.footer-container {
+.footer {
     border: 1px solid red;
 }
 .header,
-.footer {
+.footer_item {
     flex: 0 0 content;
 }
 .headline {
@@ -40,7 +40,7 @@ body {
     height: 10vh;
     flex: 1;
 }
-.footer-container {
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -52,6 +52,6 @@ body {
 .container {
     flex: 1;
 }
-.nav {
+.content {
     height: 30vh;
 }
