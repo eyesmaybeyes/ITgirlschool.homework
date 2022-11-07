@@ -55,7 +55,7 @@ body {
     flex-basis: 100%;
     margin: 10px;
 }
-.footer_item {
+.footer__item {
     width: 300px;
     margin: 10px;
     line-height: 100px;
