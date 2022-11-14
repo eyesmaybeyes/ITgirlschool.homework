@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@font-face {
+    font-family: "helvetica_regular";
+    src: url("../fonts/helvetica_regular.otf");
+}
+@font-face {
+    font-family: "intro_regular";
+    src: url("../fonts/intro_regular.ttf");
+}
+@media screen and (max-width: 767px) {
+    .opportunity-card-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 6%;
+    }
+    .contacts-card {
+        background-color: #ec615b;
+        padding-left: 5%;
+        margin: 5%;
+        width: 39vw;
+        height: 30vh;
+    }
+    .button_subscribe {
+        height: 5vh;
+        width: 37vw;
+        border-radius: 30px;
+        line-height: 5vh;
+        margin-top: 6%;
+    }
+    .nav-footer {
+        display: flex;
+        width: 40vw;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-family: "Roboto Slab", Times, serif;
+        margin-left: 8%;
+    }
+}
+.header {
+    background-image: url(../images/browser.png);
+    background-repeat: no-repeat;
+    height: 8vh;
+    font-family: "helvetica_regular", serif, Times;
+}
+#p {
+    margin: 0%;
+    padding-left: 50vw;
+    padding-top: 1.5vh;
+    color: gray;
+}
+.hr {
+    margin: 0%;
+    margin-top: 2vh;
+}
+.logo-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1vh;
+}
+.logo__image {
+    height: 40px;
+    margin-right: 4%;
+}
+.logo {
+    display: flex;
+    width: 15vw;
+    align-items: center;
+}
+.logo__title {
+    font-family: "intro_regular", serif, Times;
+    font-size: x-large;
+}
+.button {
+    background-color: #5222d0;
+    color: #fff;
+    font-family: "intro_regular", serif, Times;
+    border: none;
+}
+.button__basket {
+    height: 6vh;
+    width: 140px;
+    border-radius: 25px;
+}
+.main-grid-container {
+    display: grid;
+    grid-template-rows: 2fr repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
+    padding-left: 8vw;
+}
+.main__title {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-family: "intro_regular", serif, Times;
+    font-size: 8vh;
+}
+.main__image {
+    grid-column: 2/3;
+    grid-row: 1/5;
+    width: 100%;
+}
+.text {
+    font-family: "Roboto Slab", Times, serif;
+    font-size: 20px;
+}
+.button__buy {
+    height: 8vh;
+    width: 13vw;
+    border-radius: 30px;
+    line-height: 8vh;
+    font-size: 29px;
+}
+.button__buy__image {
+    height: 40%;
+    margin-top: 9%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto Slab", Times, serif;
+    align-items: center;
+}
+a {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(82, 34, 208, 1);
+}
+
+.title {
+    font-family: "intro_regular", serif, Times;
+}
+.title_opportunities {
+    font-size: 40px;
+    margin-left: 7vw;
+    width: fit-content;
+}
+
+@media screen and (min-width: 767px) {
+    .opportunity-card-container {
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 6%;
+    }
+    .contacts-card {
+        background-color: #ec615b;
+        padding-left: 5%;
+        margin: 5%;
+        width: 22vw;
+    }
+    .button_subscribe {
+        height: 5vh;
+        width: 10vw;
+        border-radius: 30px;
+        line-height: 5vh;
+        margin-top: 6%;
+    }
+    .nav-footer {
+        display: flex;
+        width: 40vw;
+        justify-content: space-between;
+        font-family: "Roboto Slab", Times, serif;
+        margin-left: 8%;
+    }
+}
+.opportunity-card {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    height: fit-content;
+    width: 23vw;
+}
+
+.opportunity-card__illustration {
+    width: 100%;
+}
+
+.opportunity-card__title {
+    font-size: 20px;
+}
+
+.opportunity-card__text {
+    font-size: 20px;
+}
+
+.contacts-card__title {
+    color: #fff;
+    font-size: 20px;
+}
+
+.contacts-card__form {
+    height: 3vh;
+    width: 20vw;
+}
+
+.nav-footer a {
+    color: black;
+    margin-bottom: 10%;
+}
